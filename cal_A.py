@@ -17,7 +17,7 @@ def cal_node_A(list,dis_m,hl):
             if dis_m[i][j]==-1 or i==j:
                 A[i][j] = 0
             else:
-                A[i][j] = hl-dis_m[i][j]/Amother
+                A[i][j] = (hl-dis_m[i][j])/Amother
     return A
 
 #calculate A with damping coefficent
